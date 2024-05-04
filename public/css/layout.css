@@ -1,0 +1,10 @@
+
+  .navbar-nav {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-brand{
+    width: 60px;
+    height: 60px;
+  }

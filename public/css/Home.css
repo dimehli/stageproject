@@ -1,0 +1,54 @@
+/* Reset des styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Conteneur principal */
+.mt-5 {
+    padding: 50px; /* Espace autour du contenu */
+}
+
+/* Styles pour la rangée (row) */
+.row {
+    display: flex; /* Affichage en ligne */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+
+/* Styles pour la colonne de contenu */
+.col-md-6 {
+    background-color: rgba(255, 255, 255, 0.8); /* Fond semi-transparent */
+    padding: 20px; /* Espacement intérieur */
+    border-radius: 10px; /* Coins arrondis */
+}
+
+/* Styles pour le titre */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styles pour le paragraphe */
+p {
+    text-align: justify;
+}
+
+/* Styles pour le bouton */
+.btn {
+    display: block; /* Affichage en bloc */
+    width: 100%; /* Pleine largeur */
+    margin-top: 20px; /* Espacement vers le bas */
+    transition: opacity 0.3s ease; /* Animation d'opacité */
+}
+
+/* Changement d'opacité lorsqu'on survole le bouton */
+.btn:hover {
+    opacity: 0.8;
+}
